@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções de Pagamento</title>
+    <link rel="stylesheet" href="../styles/stylespagamento.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Escolha a forma de pagamento</h1>
+        <div class="container-pagamento">
+            <div class="payment-option">
+                <input type="radio" id="credit-card" name="payment" value="credit-card">
+                <label for="credit-card">
+                    <img src="../imagem/cartao-de-credito.png" alt="Cartão de Crédito">
+                    Cartão de Crédito
+                </label>
+            </div>
+            <div class="payment-option">
+                <input type="radio" id="paypal" name="payment" value="paypal">
+                <label for="paypal">
+                    <img src="../imagem/paypal.png" alt="PayPal">
+                    PayPal
+                </label>
+            </div>
+                
+        </div>
+            <button onclick="location.href='concluido.html'" class="botaocontinuar" type="submit">Continuar</button>
+        </div>
+    </div>
+</body>
+</html>

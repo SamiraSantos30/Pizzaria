@@ -1,0 +1,40 @@
+.botaoConfirmar {
+    background-color:var(--verdeClaro); 
+    color:var(--branco);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botaoCancelar {
+    background-color:var(--vermelho); 
+    color:var(--branco1);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.botaoConfirmar:hover {
+    background-color: var(--verdeClaro1); 
+}
+.botaoCancelar:hover {
+    background-color:var(--vermelho); 
+}
+:root {
+    --verdeClaro:#4CAF50; 
+    --branco: white;
+    --vermelho: #f44336; 
+    --branco1: rgb(236, 243, 249);
+    --verdeClaro1: #45a049; 
+    --vermelho:#da190b; 
+}

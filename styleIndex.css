@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:var(--branco);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--preto);
+    color:var(--branco1);
+}
+
+.navbar a {
+    color:var(--branco1);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.tituloHome {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.containerConfirmacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imgPrincipal {
+    height: 100%;
+    width: 100%;
+}
+
+.tituloConfirmacao, .TextConfirmacao {
+    font-size: 24px;
+    margin: 20px 0;
+    color:var(--rosa);
+}
+
+.botaoConfirma {
+    display: flex;
+    gap: 20px;
+}
+
+.botaoconfirmacaosim, .botaoconfirmacaonao {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botaoconfirmacaosim {
+    background-color: var(--verde);
+    color:var(--branco1);
+}
+
+.botaoconfirmacaonao {
+
+    background-color:var(--vermelho);
+    color:var(--branco1);
+}
+
+.botaoconfirmacaosim:hover {
+    background-color: var(--verdeForte);
+}
+
+.botaoconfirmacaonao:hover {
+    background-color:var(--vermelho1);
+}
+
+.containerConfirmacao1{
+    position: absolute;
+}
+
+:root{
+    
+--branco:#f8f8f8;
+--preto:#0c0c0c;
+--branco1: white;
+--rosa: #da14a9;
+--verde:  #28a745;
+--vermelho: #dc3545;
+--verdeForte: #218838;
+--vermelho1: #c82333;
+
+}

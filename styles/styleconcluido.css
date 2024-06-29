@@ -1,0 +1,31 @@
+.container-concluido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.imgConcluido{
+    height: 400px;
+    width: 400px;
+}
+
+.botaoConcluido{
+    width: 140px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--azul)
+}
+
+.botaoConcluido:hover{
+    background-color: var(--azulEscuro);
+    scale: 1.1;
+}
+
+:root{
+    --azul: rgb(17, 162, 229);
+    --azulEscuro: #0d62da;
+}
